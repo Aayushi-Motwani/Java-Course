@@ -1,4 +1,5 @@
-public class ArithmeticOperators {
+package BasicJavaPrograms;
+public class _2ArithmeticOperators {
     public static void main(String[] args) {
         int x = 10;
         int y = 5;

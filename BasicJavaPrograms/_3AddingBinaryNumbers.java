@@ -1,6 +1,7 @@
+package BasicJavaPrograms;
 import java.util.Scanner;
 
-public class AddingBinaryNumbers {
+public class _3AddingBinaryNumbers {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
@@ -10,6 +11,8 @@ public class AddingBinaryNumbers {
 
         System.out.print("Enter the second Binary number: ");
         String Binary2 = sc.nextLine();
+
+        sc.close();
 
         int num1 = Integer.parseInt(Binary1, 2);
         int num2 = Integer.parseInt(Binary2, 2);

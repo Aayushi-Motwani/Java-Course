@@ -1,6 +1,7 @@
+package BasicJavaPrograms;
 import java.util.Scanner;
 
-public class Average {
+public class _4Average {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first number: ");
@@ -9,6 +10,8 @@ public class Average {
         int num2 = sc.nextInt();
         System.out.print("Enter the Third number: ");
         int num3 = sc. nextInt();
+
+        sc.close();
 
         float avg = (num1 + num2 + num3)/3;
 

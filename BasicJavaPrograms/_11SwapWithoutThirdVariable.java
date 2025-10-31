@@ -1,6 +1,7 @@
+package BasicJavaPrograms;
 import java.util.Scanner;
 
-public class SwapWithoutThirdVariable {
+public class _11SwapWithoutThirdVariable {
     public static void main(String[] args){
 
         int a,b;
@@ -12,6 +13,8 @@ public class SwapWithoutThirdVariable {
 
         System.out.print("Enter Second Number: ");
         b = sc.nextInt();
+
+        sc.close();
 
         System.out.println("before swapping"); 
         System.out.println("first number: " + a + " || Second Number: " + b);

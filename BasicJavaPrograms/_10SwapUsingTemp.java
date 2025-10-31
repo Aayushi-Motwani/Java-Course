@@ -1,6 +1,7 @@
+package BasicJavaPrograms;
 import java.util.Scanner;
 
-public class SwapUsingTemp {
+public class _10SwapUsingTemp {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -14,6 +15,8 @@ public class SwapUsingTemp {
 
         System.out.println("before swapping"); 
         System.out.println("first number: " + a + " || Second Number: " + b);
+
+        sc.close();
 
         int temp = a;
         a = b;
