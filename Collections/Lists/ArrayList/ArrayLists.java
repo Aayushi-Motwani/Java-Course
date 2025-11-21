@@ -1,7 +1,8 @@
-package Collections.Lists;
+package Collections.Lists.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class ArrayLists {
@@ -16,6 +17,7 @@ public class ArrayLists {
         List<String> list2 = Arrays.asList("Monday","Tuesday","Wednesday"); //no adding/delete , only set
                                 // OR
         ArrayList<String> list3 = new ArrayList<> (Arrays.asList("Monday","Tuesday","Wednesday")); 
+
         List<Integer> list4 = List.of(1,2,3); //no modification not even set operation
 
         Integer [] fruits = {4,5,6};
@@ -75,6 +77,12 @@ public class ArrayLists {
 
         // converting to array
         Integer[] newArray = list.toArray(new Integer[0]);
+
+        // sorting a list
+        list.add(0);
+        System.out.println("unsorted list"+list);
+        Collections.sort(list); 
+        System.out.println("sorted list"+list);
 
 
         
