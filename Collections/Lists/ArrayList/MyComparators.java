@@ -31,6 +31,16 @@ public class MyComparators {
 
         // ========================================================
 
+        // using lambda expressions
+        List<String> list3 = (Arrays.asList("avocado","dragonfruit","Banana","guava"));
+        list3.sort((a,b) -> b.length()-a.length()); //for ascending order a-b; for descending order b-a;
+        System.out.println(list3);
+      
+        // using lambda expressions
+        List<Integer> list4 = (Arrays.asList(30,20,60,10));
+        list4.sort((a,b) -> a-b); //for ascending order a-b; for descending order b-a;
+        System.out.println(list4);
+
     }
   
 }
