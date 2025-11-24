@@ -21,7 +21,7 @@ public class Example{
                 return -1;
             }
             else {
-                return 0;
+                return a.getName().compareTo(b.getName()); //to compare strings or length of name in asc order. 
             }
         }); 
         for(Student s : students){
