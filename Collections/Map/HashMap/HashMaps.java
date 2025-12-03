@@ -37,7 +37,20 @@ public class HashMaps {
         }
         System.out.println(map1);
 
+        // ======================================================================
+        
+        // getOrDefault --> it means if required key is present then return it otherwise return the default value
+
+        System.out.println(map1.getOrDefault(5, "not found")); //output - not found
+
         // =======================================================================
+
+        // putIfAbsent --> it means insert the value if it is not already present
+        
+        System.out.println(map1.putIfAbsent(10, "Dollyyyyyyyyy")); //at key 10 value will renain Dolly and not set as Dollyyyyyyyyy
+        System.out.println(map1.putIfAbsent(1, "Maya")); //new entry(this) will be inserted as it is not already present in map
+        System.out.println(map1);
+        // ======================================================================
 
         //removing entries
         System.out.println(map1.remove(10)); //Dolly
