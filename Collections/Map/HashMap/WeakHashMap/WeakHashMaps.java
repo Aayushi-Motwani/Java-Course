@@ -1,4 +1,4 @@
-package Collections.Map.WeakHashMap;
+package Collections.Map.HashMap.WeakHashMap;
 
 import java.util.WeakHashMap;
 
